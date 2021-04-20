@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: black;
+    font-family: Helvetica;
+    color: seashell;
+    text-align: center;
+    opacity: 0.9;
+    font-size: 22px;
+}
+
+nav {
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    height: 69px;
+    position: fixed;
+    z-index: 9;
+    background-color: black;
+    width: 100%;
+    justify-content: space-between;
+    top: 0;
+}
+
+#logo {
+    margin-left: 10px;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+}
+
+nav ul li {
+    margin: 0px 10px;
+}
+
+nav ul li a {
+    color: seashell;
+}
+
+nav ul li button {
+    text-decoration: underline;
+    background-color: transparent;
+    color: seashell;
+    font-family: Helvetica;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+section {
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mission {
+    background-image: url('./media/mission-background.webp');
+    height: 700px;
+    width: 1200px;
+    margin-top: 100px;
+}
+
+.mission-text {
+    background-color: black;
+    width: 100%;
+}
+
+.mission-text > * {
+    margin: 10px 0px;
+}
+
+#tea {
+    display: block;
+    margin-top: 100px;
+    width: 1000px;
+}
+
+#tea > * {
+    margin-top: 20px;
+}
+
+#tea img {
+    height: 200px;
+    width: 300px;
+}
+
+.block-container {
+    justify-content: center;
+    display: flex;
+    width: inherit;
+    flex-wrap: wrap;
+}
+
+.tea-block {
+    margin: 10px 20px;
+}
+
+#locations {
+    height: 700px;
+    width: 1200px;
+    margin-top: 100px;
+    background-image: url(./media/locations-background.webp);
+    justify-content: center;
+}
+
+.locations-container {
+    display: flex;
+}
+
+.locations-block {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    padding: 0px 10px;
+    margin: 0px 20px;
+}
+
+.locations-block * {
+    margin: 30px 0px;
+}
+
+footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.copyright {
+    text-align: left;
+    padding: 0px 0px 20px 20px;
+}
